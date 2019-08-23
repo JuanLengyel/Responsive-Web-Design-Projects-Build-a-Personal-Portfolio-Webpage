@@ -1,0 +1,15 @@
+#navbar {
+    position: fixed;
+    top: 0;
+}
+
+#welcome-section {
+    top: 0;
+    min-height: 100vh;
+}
+
+@media only screen and (max-width: 815px) {
+    #navbar {
+        visibility: hidden;
+    }
+}
